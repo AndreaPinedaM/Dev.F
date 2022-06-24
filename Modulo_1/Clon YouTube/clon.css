@@ -1,0 +1,339 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px white;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(25, 25, 25);
+}
+
+header{
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+    width: 100%;
+    height: 3.5rem;
+    background-color: rgb(39, 37, 37);
+}
+#youtube-icon{
+    z-index: 1;
+    width: 85px;
+}
+
+/*Capsulas*/
+#capsules{
+    width: 100%;
+    height: 3rem;
+    margin-top: 3.5rem;
+    margin-left: 13rem;
+    background-color: rgba(39, 37, 37, 0.86);
+    border-top: solid 1px rgba(128, 128, 128, 0.43);
+    border-bottom: solid 1px rgba(128, 128, 128, 0.43);
+    color:white;
+    font-weight: 600;
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+#capsules p{
+    background-color: rgb(57, 57, 57);
+    border:solid 0.05rem rgba(83, 79, 79, 0.579);
+    font-size: 12px;
+    padding: 0.45%;
+    border-radius:20px;
+    cursor: pointer;
+    margin: 0.8em;
+}
+#capsules p:hover{
+    background-color: rgb(78, 78, 78);
+}
+#capsules span{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+    /*menu lateral*/
+    .aside{
+        position: fixed;
+        height: 100%;
+        width: 13rem;
+        top: 0;
+        left: 0;
+        background-color: rgb(39, 37, 37);
+    }
+
+    .asside-icon{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        height: 3.5rem;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .asside-icon img{
+        width: 1.7rem;
+        margin-left: 1.5rem;
+        margin-right: 1rem;
+    }
+    span{  
+        margin-left: 1.5rem; 
+        margin-right: 1rem;  
+    }
+    .asside-icon p{
+        font-size: 12px;
+        line-height: normal;
+    }
+
+    #listas{
+        border-top: solid 1px rgba(128, 128, 128, 0.43);
+        border-bottom: solid 1px rgba(128, 128, 128, 0.43);
+    }
+
+/*iconos*/
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 100,
+    'GRAD' 0,
+    'opsz' 40
+}
+
+/*Seccion buscar video*/
+#search-video{
+    position: absolute;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+input{
+    background-color: black;
+    color:white;
+    height: 2.2rem;
+    width: 25vw;
+    border:solid 0.05rem rgb(57, 57, 57);
+}
+#search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(57, 57, 57);
+    color: white;
+    cursor: pointer;
+    width: 3.5rem;
+}
+#microphone img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: none;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    width: 2.2rem;
+    cursor: pointer;
+}
+
+/*Seccion cuenta*/
+#my-space{
+    margin-right: 2rem;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    right: 0%;
+    color:white;
+}
+#my-space span{
+    margin: 0.5rem;
+}
+.user{
+    height: 2rem;
+    border-radius: 50%;
+    margin: 0.1rem;
+}
+
+/*Videos*/
+#videos{
+    position: absolute;
+    z-index: -1;
+    left: 13rem;
+    top:6.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    font-size: 62.5%;
+    color:white;
+}
+.card{
+    margin: 0.5rem;
+    margin-bottom: 3rem;
+    line-height: 1rem;
+}
+.card h2{  
+    line-height: 2.4rem;
+    padding-top: 0.5rem;
+}
+.video{
+    height:10rem;
+    width:17rem;
+    background-image: url("./IMG/pantalla-video.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.video:hover{
+    height:10rem;
+    width:17rem;
+    background-image: url("./IMG/junkerqueen-overwatch.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.halo{
+    height:10rem;
+    width:17rem;
+    background-image: url("./IMG/Halo-Infinite-2.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.halo:hover{
+    height:10rem;
+    width:17rem;
+    background-image: url("./IMG/halo-infinite.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.elden{
+    height:10rem;
+    width:17rem;
+    background-image: url("./IMG/elden\ ring.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.elden:hover{
+    height:10rem;
+    width:17rem;
+    background-image: url("./IMG/elden-ring-werewolf.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.alice{
+    height:10rem;
+    width:17rem;
+    background-image: url("./IMG/alice.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.alice:hover{
+    height:10rem;
+    width:17rem;
+    background-image: url("./IMG/alice-madness.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.channel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.channel img{
+    height: 2rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+/*Pseudoclases*/
+.asside-icon:hover{
+    background-color: rgb(57, 57, 57);
+}
+input:focus{
+    border:solid 0.01rem rgb(86, 86, 255);
+    outline-style: none;
+}
+
+@media screen and (max-width: 1200px) {
+
+    #capsules{  
+        margin-left: 5rem;  
+        font-size: smaller;
+    }
+    #capsules p{  padding: 1%;  }
+
+    /*menu lateral*/
+    .aside{
+        height: 100vh;
+        width: 5rem;
+        position: fixed;
+        top: 0;
+        display: flexbox;
+        background-color: rgb(39, 37, 37);
+    }
+    .asside-icon{
+        height: 55px;
+        display: flex;
+        padding: 0%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        font-size: 10px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #menu{
+        width: 4.8rem;
+        text-align: center;
+    }
+
+    .asside-icon img{
+        margin: 0%;
+        width: 1.7rem;
+    }
+    span{  margin: 0%;  }
+
+    .asside-icon p{
+        font-size: 10px;
+        line-height: normal;
+    }
+
+    #listas{  display: none;  }
+
+    #videos{  left: 5rem;  }   
+}
+
+@media screen and (max-width: 660px) {
+    #capsules{  display:none;  }
+
+    input{  display: none;  }
+
+    #youtube-icon{
+        margin-left: 0;
+        width: 65px;
+    }
+
+    #search{
+        background-color: rgb(39, 37, 37);
+        margin-left: 2rem;
+    }
+    
+    #my-space .material-symbols-outlined{  display: none;  }
+
+    #microphone img{  display: none;  }
+
+    .aside{  display: none;  }
+
+    #videos{  left: 0rem;  }
+
+    #listas{  display: none;  }
+}
+
+
+

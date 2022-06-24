@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    color: rgb(31, 46, 160);
+    font-family: 'Roboto Condensed', sans-serif;
+    border: solid 1px black;
+    margin: 0;
+    font-size: calc(1.2vw);
+}
+button{
+    width: 45%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    background-color: rgba(90, 95, 236, 0.592);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+}
+input{
+    height: 2.5vh;
+    border: none;
+}
+textarea{
+    height: 2.5vh;
+    resize: none;
+    border: none;
+}
+table{
+    width: 100%;
+}
+table tr td{
+    font-weight: 700;
+    width: 20%;
+    padding: 5px;
+    text-align: center;
+}
+
+a{  padding: 10px;  }
+
+p{  padding: 5px;  }
+
+/*header*/
+header{
+    position: fixed;
+    display: inline-flexbox;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    font-size: 1rem;
+}
+nav{
+    display: inline-flex;
+}
+header h3, h4, p{
+    margin: 0.5rem;
+}
+/*first container*/
+#first-container{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+#welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+}
+#main_img{
+    width: 15%;
+    margin: 1rem;
+}
+
+/*Sobre mí*/
+#about{ padding: 1rem; }
+#welcome ul li{
+    display: inline-block;
+}
+
+/*Contenido en colunmas*/
+#about, #experiencia, #hobbies,  #academy, #proyectos, #insignias{
+    flex-direction: column;
+}
+
+/*Experiencia profesional*/
+.proyecto{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    margin: 1rem;
+}
+#id-proyecto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+#botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/*Contacto*/
+#contacto{
+    color:white;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(99,176,228);
+    background: radial-gradient(circle, rgba(99,176,228,1) 0%, rgba(196,167,237,1) 72%, rgba(218,115,218,1) 98%);
+}
+#img-contacto{
+    width: 20%;
+    height: 20%;
+}
+#form label, input, textarea{
+    display: flex;
+    border-radius: 5px;
+    margin: 1rem;
+}
+/*Footer*/
+footer{
+    margin: 2rem;
+    text-align: center;
+}
+/*Clases*/
+.img_redonda{  border-radius: 200px;  }
+
+.logo{  width: 5vmax;  }
+
+.blue{  background-color: #EAF2FD;  }
+
+.gray{  background-color:#f5f5f5;  }
+
+.centrado{
+    text-align: center;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+.flex{
+    display: flex;
+    position: relative;
+}
+.box-shadow table{
+    border-collapse: separate;
+    border-spacing:  15px;  
+}
+.box-shadow tr td{
+    height: 100px;
+    background-color: white;
+    box-shadow: 2px 2px 5px #999;
+}
+
+
+.img-proyecto{
+    width: 50%;
+    display: inline-block;
+}
+.id-proyecto{
+    height: 100%;
+    display: inline-block;
+}
+.repositorio{
+    border-color:#2A7AE4;
+    background-color: #f5f5f5;
+    color:#2A7AE4;
+}
+.ver-demo{
+    background-color: #2A7AE4;
+    border-color: #2A7AE4;
+    color:white;
+}
+
+/*Pseudoclases*/
+a:hover{
+    font-weight: 800;
+    font-size: large;
+}
+button:hover{
+    font-weight: bold;
+}
+input:focus, textarea:focus{
+    border-color: darkblue;
+    outline: none;
+}

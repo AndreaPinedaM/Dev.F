@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    border: 1px rgb(230, 0, 255);
+}
+header{
+    background-color: rgb(51, 51, 51);
+    color:white;
+    display: flex;
+    justify-content: end;
+}
+header > a, span, img{
+    margin: 0.5rem;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+    text-decoration:underline;
+}
+/*Aside*/
+.aside{
+    position:absolute;
+    height: 100%;
+    width: 5rem;
+    background-image: url("./IMG/google.jpg");
+    background-size: contain;
+}
+
+#main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./IMG/wall.png");
+}
+#central{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    margin-top: 15%;
+    width: 80%;
+}
+#logo-google{
+    width: 30%;
+    margin: 2%;
+}
+
+
+/*Buscador*/
+#search-input{
+    background-color: white;
+    color:rgb(69, 65, 65);
+    display:flex;
+    align-items: center;
+    border-radius: 20px;
+    height: 3rem;
+    
+}
+input{
+    font-weight: 700;
+    width: 25vw;
+    height: 80%;
+}
+input:focus{
+    outline: none;
+}
+#search-input img{
+    width: 17px;
+    border-radius: 20px;
+    margin-right: 1.2rem;
+}
+
