@@ -2,7 +2,7 @@
     box-sizing: border-box;
     color: rgb(31, 46, 160);
     font-family: 'Roboto Condensed', sans-serif;
-    border: solid 1px black;
+    border: 1px black;
     margin: 0;
     font-size: calc(1.2vw);
 }
