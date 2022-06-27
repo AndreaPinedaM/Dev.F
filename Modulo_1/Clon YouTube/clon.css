@@ -74,7 +74,7 @@ header{
         flex-wrap: wrap;
         justify-content: flex-start;
         align-items: center;
-        height: 3.5rem;
+        height: 3.2rem;
         color: white;
         font-family: 'Roboto', sans-serif;
     }
@@ -166,7 +166,7 @@ input{
 #videos{
     position: absolute;
     z-index: -1;
-    left: 13rem;
+    left: 11rem;
     top:6.5rem;
     display: flex;
     flex-wrap: wrap;
