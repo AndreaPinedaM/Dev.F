@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Ejercicio</title>
+</head>
+<body>
+    <div id="check">
+        <fieldset id="sintomas">
+            <legend>Selecciona los sintomas que presentas:</legend>
+            <div>
+                <input type="checkbox" class="sin" id="head"><label>Dolor de cabeza</label>
+            </div>
+            <div>
+                <input type="checkbox" class="sin" id="respirar"><label>Dificultad para respirar</label>
+            </div>
+            <div>
+                <input type="checkbox" class="sin" id="temp"><label>Temperatura mayor a 37°</label>
+            </div>
+            <div>
+                <input type="checkbox" class="sin" id="cuerpo"><label>Dolor de cuerpo</label>
+            </div>
+        </fieldset>
+    </div>
+    <img src="./vacuna_img7.png" width="70">
+
+    <div id="vacunas">
+
+        <h1>¿Tienes tu vacunas?</h1>
+        <select id="vacuna">
+            <option value="">--Please choose an option--</option>
+            <option value="si">Sí</option>
+            <option value="no">No</option>
+        </select>
+    </div>
+    <button id="send">Enviar</button>
+    <div id="mensaje"></div>
+</body>
+<script src="./index.js"></script>
+</html

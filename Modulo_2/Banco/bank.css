@@ -1,0 +1,84 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: rgb(192,228,255);
+    background: radial-gradient(circle, rgba(192,228,255,1) 0%, rgba(10,43,144,1) 93%);
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.custom{
+    width: 60%;
+    height: 30px;
+    margin: 5px;
+    margin: 5%;
+    border: none;
+    border-radius: 5px;
+    padding: 5%;
+}
+.custom:focus{
+    outline: unset;
+    border: solid 1px darkblue;
+}
+#Send{
+    width: 50%;
+    height: 35%;
+    margin: 10%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: darkblue;
+    color: aliceblue;
+    padding: 4%;
+}
+.hide{
+    display: none;
+}
+
+#sign-in{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 40%;
+    height: 40%;
+    /*background-color: #36C9C6;*/
+    background-image: url("./IMG/signIn-Wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    color:darkblue;
+    border-radius: 15px;
+}
+.sign-inp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#formulario{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.error{
+    color: #f53b03;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#bank{
+    border-radius: 100px;
+}
