@@ -6,3 +6,6 @@ Modulo 1.
 Clon Google: https://andreapinedam.github.io/Dev.F/Modulo_1/Clon%20Google/index.html
 
 Clon YouTube: https://andreapinedam.github.io/Dev.F/Modulo_1/Clon%20YouTube/index.html
+
+
+Portafolio Digital: https://andreapinedam.github.io/Dev.F/Modulo_1/CV/index.html
