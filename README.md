@@ -7,5 +7,10 @@ Clon Google: https://andreapinedam.github.io/Dev.F/Modulo_1/Clon%20Google/index.
 
 Clon YouTube: https://andreapinedam.github.io/Dev.F/Modulo_1/Clon%20YouTube/index.html
 
-
 Portafolio Digital: https://andreapinedam.github.io/Dev.F/Modulo_1/CV/index.html
+
+Modulo 2
+
+Pagina de Banco: 
+
+Test de Covid-19:
