@@ -1,0 +1,219 @@
+*{
+    box-sizing: border-box;
+    color: rgb(31, 46, 160);
+    font-family: 'Roboto Condensed', sans-serif;
+    border:1px black;
+    margin: 0;
+}
+button{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    background-color: rgba(90, 95, 236, 0.471);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+}
+input{
+    height: 2.5vh;
+    border: none;
+}
+textarea{
+    height: 2.5vh;
+    resize: none;
+    border: none;
+}
+table{
+    width: 100%;
+}
+
+a{  padding: 10px;  }
+
+p{  padding: 5px;  }
+
+/*header*/
+#header{
+    display: inline-flexbox;
+    background-color: transparent;
+    position: static;
+    z-index: 1;
+    width: 100%;
+    height: 7%;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+nav{
+    display: inline-flex;
+}
+header h3{
+    margin: 0.5rem;
+}
+/*first container*/
+#first-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+#welcome{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#main-img{
+    width: 150px;
+    margin: 0.5rem;
+}
+
+/*Sobre mí*/
+#about{ padding: 1rem; }
+
+#welcome ul li{
+    display: inline-block;
+}
+#hobbies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #2a7be4a2;
+}
+.hob{
+    color: wheat;
+    padding: 10px;
+    font-weight: 700;
+    margin: 0.3rem;
+    text-align: center;
+}
+#soft-skills{
+    text-align: center;
+    padding: 1rem;
+}
+
+/*Contenido en colunmas*/
+#about, #experiencia,  #academy, #proyectos{
+    flex-direction: column;
+}
+
+/*Experiencia profesional*/
+.proyecto{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    margin: 1rem;
+}
+.id-proyecto{
+    display: flex;
+    align-items: center;
+}
+#botones{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+/*Contacto*/
+#contacto{
+    color:white;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgb(99,176,228);
+    background: radial-gradient(circle, rgba(99,176,228,1) 0%, rgba(196,167,237,1) 72%, rgba(218,115,218,1) 98%);
+}
+#img-contacto{
+    width: 20%;
+    height: 20%;
+}
+#form label, input, textarea{
+    display: flex;
+    border-radius: 5px;
+    margin: 1rem;
+}
+/*Footer*/
+footer{
+    margin: 2rem;
+    text-align: center;
+}
+/*Clases generales*/
+.img_redonda{  
+    border-radius: 200px;  
+    width: 100%;
+}
+
+.logo{  width: 5vmax;  }
+
+.blue{  background-color: #EAF2FD;  }
+
+.gray{  background-color:#f5f5f5;  }
+
+.centrado{
+    text-align: center;
+    padding: 0.5rem;
+}
+.flex{
+    display: flex;
+    position: relative;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+}
+.card{
+    text-align: center;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: white;
+    box-shadow: 2px 2px 5px #999;
+}
+
+/*Proyectos*/
+.img-proyecto{
+    width: 50%;
+    display: inline-block;
+}
+.id-proyecto{
+    height: 100%;
+    display: inline-block;
+}
+.repositorio{
+    border:solid 1px #2A7AE4;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    color:#2A7AE4;
+}
+.ver-demo{
+    background-color: #2A7AE4;
+    border-color: #2A7AE4;
+    border-radius: 5px;
+    color:white;
+}
+
+/*Pseudoclases*/
+a:hover{
+    font-weight: 800;
+    font-size: large;
+}
+button:hover{
+    font-weight: bold;
+}
+input:focus, textarea:focus{
+    border-color: darkblue;
+    outline: none;
+}
