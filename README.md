@@ -13,4 +13,7 @@ Modulo 2
 
 Pagina de Banco: 
 
+Cuenta de ciente de prueba para ingresar : andy@hotmail.com. contraseña: pass123
+
+
 Test de Covid-19:
