@@ -13,7 +13,7 @@ Modulo 2
 
 Pagina de Banco: https://andreapinedam.github.io/Dev.F/Modulo_2/Banco/bank.html 
 
-Cuenta de ciente de prueba para ingresar :
+Cuenta de cliente de prueba para ingresar :
 
 Usuario: andy@hotmail.com. 
 
