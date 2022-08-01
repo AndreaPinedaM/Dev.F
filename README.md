@@ -11,9 +11,12 @@ Portafolio Digital: https://andreapinedam.github.io/Dev.F/Modulo_1/CV/index.html
 
 Modulo 2
 
-Pagina de Banco: 
+Pagina de Banco: https://andreapinedam.github.io/Dev.F/Modulo_2/Banco/bank.html 
 
-Cuenta de ciente de prueba para ingresar : andy@hotmail.com. contraseña: pass123
+Cuenta de ciente de prueba para ingresar :
 
+Usuario: andy@hotmail.com. 
+
+Contraseña: pass123
 
 Test de Covid-19:
