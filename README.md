@@ -23,4 +23,4 @@ Test de Covid-19: https://andreapinedam.github.io/Dev.F/Modulo_2/Test-Covid/inde
 
 Modulo 3
 
-API request Game of Thrones: 
+API request Game of Thrones: https://andreapinedam.github.io/Dev.F/Modulo_3/index.html
