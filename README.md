@@ -20,3 +20,7 @@ Usuario: andy@hotmail.com.
 Contraseña: pass123
 
 Test de Covid-19: https://andreapinedam.github.io/Dev.F/Modulo_2/Test-Covid/index.html
+
+Modulo 3
+
+API request Game of Thrones: 
