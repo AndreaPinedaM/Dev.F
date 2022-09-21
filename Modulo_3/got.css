@@ -1,0 +1,86 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    border:  1px white;
+    /* font-family: 'Aboreto', cursive; */
+    /* font-family: 'GOT'; */
+    /* border: solid 1px white; */
+}
+
+@font-face {
+    font-family: 'GOT';
+    src: url('./Font/Game\ of\ Thrones.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+    font-family: 'Cormorant Garamond', serif;
+    background-image: url("./IMG/fondo2.jpg");
+    background-size: contain;
+}
+/* NAVBAR */
+#navbar-logo{
+    display: block;
+    margin: 5px;
+}
+
+.nav-item{  
+    padding: 0px 15px;  
+} 
+
+marquee{
+    color: goldenrod;
+    font-size: 1rem;
+    font-family: 'GOT';
+    padding: 2rem;
+}
+
+/* MAIN CONTAINER */
+#main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    margin: 0 5%;
+    background-color: transparent;
+}
+
+/* CATEGORIAS */
+#filter_div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    padding: 3%;
+}
+
+.family-logo{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    /* border: solid 1px goldenrod; */
+}
+.family-logo img{
+    cursor: pointer;
+}
+
+.card{
+    margin: 10px;
+    color: goldenrod;
+    background-color: black;
+    height: max-content;
+    border-radius: 20px;
+}
+
+.card-img-top{
+    border-radius: 20px 20px 0 0 ;
+}
+
+
