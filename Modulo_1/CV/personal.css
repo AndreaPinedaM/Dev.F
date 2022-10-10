@@ -47,12 +47,11 @@ h3, h2{
 
 /*first container*/
 #first-container{
-    height: 50vh;
+    padding: 5% auto 5% auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-content: center;
     align-items: center;
     background-image: url("https://cdn.statically.io/img/i.pinimg.com/originals/2d/97/4d/2d974d71915c2bf72d30ef60f8731267.gif");
     background-size: contain;
